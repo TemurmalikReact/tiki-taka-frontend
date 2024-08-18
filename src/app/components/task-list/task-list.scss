@@ -1,0 +1,174 @@
+.task {
+  font-weight: 400;
+
+  &--header {
+    display: grid;
+    grid-template-columns: 20px 6.75fr 1.75fr 1.75fr 1.75fr;
+    padding: 5px 0;
+    font-size: 13px;
+
+    div {
+      &.centered {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+
+  &--row {
+    display: grid;
+    grid-template-columns: 20px 6.75fr 1.75fr 1.75fr 1.75fr;
+    padding: 15px 0;
+    font-size: 12px;
+
+    div {
+      &.centered {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+}
+
+
+// .task-list {
+//   width: 100%;
+//   min-width: 1280px;
+//   margin-top: 28px;
+//   text-align: left;
+//   border-spacing: 0;
+//   font-size: 14px;
+//   line-height: 22px;
+//   color: #475467;
+
+//   &--wrapper {
+//     overflow-x: auto;
+//   }
+
+//   &--heading {
+//     height: 48px;
+//     background-color: #F4F5F7;
+
+//     th {
+//       padding: 25px;
+//       color: #475467;
+//       font-weight: 400;
+//     }
+//   }
+
+//   &--row {
+//     height: 72px;
+
+//     td {
+//       max-height: 72px;
+//       box-sizing: border-box;
+//       padding: 25px;
+//       border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+
+//       &.task-column {
+//         color: #202022;
+//         font-size: 16px;
+//         line-height: 22px;
+//       }
+
+//       &:last-of-type {
+//         // padding-right: 24px;
+//       }
+//     }
+//   }
+
+//   .task-column {
+//     width: 252px;
+//   }
+
+//   .description-column {
+//     max-width: 451px;
+
+//     p {
+//       width: 427px;
+//       height: 22px;
+//       margin: 0;
+//       white-space: nowrap;
+//       overflow: hidden;
+//       text-overflow: ellipsis;
+//     }
+//   }
+
+//   .creation-date-column {
+//     width: 145px;
+//     text-align: center;
+//   }
+
+//   .due-date-column {
+//     width: 145px;
+//     text-align: center;
+//   }
+
+//   .priority-column {
+//     width: 145px;
+//   }
+
+//   .status-column {
+//     width: 145px;
+//     text-align: right;
+//   }
+
+//   td,
+//   th {
+//     &.status-column, &.priority-column {
+//       // padding-right: 24px;
+//       text-align: right;
+//     }
+//   }
+// }
+
+// .add-card-button {
+//   display: flex;
+//   align-items: center;
+//   background-color: transparent;
+//   border: 2px solid transparent;
+//   border-radius: 4px;
+//   color: #5847F1;
+//   margin: 16px 24px 0 0;
+//   padding: 8px 6px;
+//   text-align: center;
+//   text-decoration: none;
+//   font-size: 14px;
+//   line-height: 20px;
+//   cursor: pointer;
+
+//   .icon {
+//     margin-right: 6px;
+//     color: #5847F1;
+//   }
+
+//   &:hover {
+//     border: 2px solid #5847F1;
+//   }
+
+//   &:active {
+//     cursor: pointer;
+//     color: #FFFFFF;
+//     background-color: #5847F1;
+//     border: 2px solid #5847F1;
+
+//     .icon {
+//       color: #FFFFFF;
+//     }
+//   }
+// }
+
+@media (min-width: 1024px) {
+  .task {
+    &--header {
+      grid-template-columns: 40px 7.5fr 1.5fr 1.5fr 1.5fr;
+      font-size: 16px;
+    }
+
+    &--row {
+      grid-template-columns: 40px 7.5fr 1.5fr 1.5fr 1.5fr;
+
+      font-size: 15px;
+    }
+  }
+}
