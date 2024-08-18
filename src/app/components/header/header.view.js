@@ -53,8 +53,8 @@ export class HeaderView {
             <p class="banner__subtext">Biz bilan o'zingizni proffesional futbolchidek his eting</p>
           </div>
           <div class="banner__phone">
-            <p>User phone number:</p>
-            <span>+9998 99 212 12 12</span>
+            <p></p>
+            <span></span>
           </div>
         </div>
       </header>

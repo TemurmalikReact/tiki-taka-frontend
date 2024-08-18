@@ -23,9 +23,8 @@ export class SidebarView {
 
           
           <div class="sidebar__socials">
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-instagram"></a>
-            <a href="#" class="fa fa-telegram"></a>
+            <a target="_blank" href="https://www.instagram.com/tikitaka_fergana?igsh=NnhyOXVqd3hqbWs2&utm_source=qr" class="fa fa-instagram"></a>
+            <a target="_blank" href="https://t.me/tikitaka_fergana" class="fa fa-telegram"></a>
           </div>
         </aside>
       `
