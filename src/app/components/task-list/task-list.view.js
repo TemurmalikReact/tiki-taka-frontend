@@ -33,7 +33,7 @@ export class TaskListView {
     { id: 28, ism: "Dadaboyev Asadulloh", oyin: 2, gol: 5, assist: 4 },
     { id: 29, ism: "Saydalixonov Asilxon", oyin: 2, gol: 1, assist: 3 },
     { id: 30, ism: "Otajonov Ozodbek", oyin: 2, gol: 4, assist: 3 },
-    { id: 31, ism: "Boykoziyev Kamronbek", oyin: 2, gol: 8, assist: 0 }
+    { id: 31, ism: "Boyqo'ziyev Kamronbek", oyin: 2, gol: 8, assist: 0 }
   ];
 
 
