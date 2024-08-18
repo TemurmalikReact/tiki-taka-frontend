@@ -3,15 +3,15 @@ import { eventBus } from '../../../utils/event-bus';
 
 export class TaskListView {
   tasks = [
-    { id: 1, ism: "Abduqodir Xoshimov", oyin: 1, gol: 5, assist: 2 },
-    { id: 2, ism: "Xurrambek Abdumutalov", oyin: 1, gol: 2, assist: 4 },
-    { id: 3, ism: "Asadullo Qosirov", oyin: 1, gol: 5, assist: 1 },
-    { id: 4, ism: "Jamshid Mamadaliyev", oyin: 1, gol: 2, assist: 4 },
-    { id: 5, ism: "Akim Umarkulov", oyin: 1, gol: 1, assist: 2 },
-    { id: 6, ism: "Asror Haydarov", oyin: 1, gol: 2, assist: 1 },
-    { id: 7, ism: "Olim Tursunaliyev", oyin: 1, gol: 4, assist: 5 },
-    { id: 8, ism: "Fazliddin Jamoliddinov", oyin: 1, gol: 2, assist: 1 },
-    { id: 9, ism: "Firdavs Husainov", oyin: 1, gol: 4, assist: 0 }
+    { id: 1, ism: "Abduqodir Xoshimov", oyin: 2, gol: 5, assist: 2 },
+    { id: 2, ism: "Xurrambek Abdumutalov", oyin: 2, gol: 2, assist: 4 },
+    { id: 3, ism: "Asadullo Qosirov", oyin: 2, gol: 5, assist: 1 },
+    { id: 4, ism: "Jamshid Mamadaliyev", oyin: 2, gol: 2, assist: 4 },
+    { id: 5, ism: "Akim Umarkulov", oyin: 2, gol: 1, assist: 2 },
+    { id: 6, ism: "Asror Haydarov", oyin: 2, gol: 2, assist: 1 },
+    { id: 7, ism: "Olim Tursunaliyev", oyin: 2, gol: 4, assist: 5 },
+    { id: 8, ism: "Fazliddin Jamoliddinov", oyin: 2, gol: 2, assist: 1 },
+    { id: 9, ism: "Firdavs Husainov", oyin: 2, gol: 4, assist: 0 }
   ];
   
 
