@@ -7,8 +7,8 @@ export class TaskListView {
     { id: 2, ism: "Muhammad Mabrur", oyin: 2, gol: 1, assist: 1 },
     { id: 3, ism: "Xolmirzayev Zafar", oyin: 2, gol: 3, assist: 2 },
     { id: 4, ism: "Zafarov Nurmuhammad", oyin: 2, gol: 6, assist: 2 },
-    { id: 5, ism: "Noname Ali", oyin: 2, gol: 3, assist: 1 },
-    { id: 6, ism: "Noname Bilol", oyin: 2, gol: 0, assist: 1 },
+    { id: 5, ism: "Ali", oyin: 2, gol: 3, assist: 1 },
+    { id: 6, ism: "Bilol", oyin: 2, gol: 0, assist: 1 },
     { id: 7, ism: "Husainov Firdavs", oyin: 2, gol: 4, assist: 0 },
     { id: 8, ism: "Haydarov Asror", oyin: 2, gol: 2, assist: 1 },
     { id: 9, ism: "Umarkulov Akim", oyin: 2, gol: 2, assist: 1 },
@@ -33,7 +33,7 @@ export class TaskListView {
     { id: 28, ism: "Dadaboyev Asadulloh", oyin: 2, gol: 5, assist: 4 },
     { id: 29, ism: "Saydalixonov Asilxon", oyin: 2, gol: 1, assist: 3 },
     { id: 30, ism: "Otajonov Ozodbek", oyin: 2, gol: 4, assist: 3 },
-    { id: 31, ism: "Boykiziyev Kamronbek", oyin: 2, gol: 8, assist: 0 }
+    { id: 31, ism: "Boykoziyev Kamronbek", oyin: 2, gol: 8, assist: 0 }
   ];
 
 
