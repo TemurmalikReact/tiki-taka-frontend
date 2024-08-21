@@ -2,17 +2,7 @@ import './task.scss';
 
 export class TaskView {
   selector = 'task';
-  tasks = [
-    { id: 1, ism: "Xoshimov", familiya: "Abduqodir", oyin: 1, gol: 5, assist: 2, sariq: 0, qizil: 0 },
-    { id: 2, ism: "Abdumutalov", familiya: "Xurrambek", oyin: 1, gol: 2, assist: 4, sariq: 0, qizil: 0 },
-    { id: 3, ism: "Qosirov", familiya: "Asadullo", oyin: 1, gol: 5, assist: 1, sariq: 0, qizil: 0 },
-    { id: 4, ism: "Mamadaliyev", familiya: "Jamshid", oyin: 1, gol: 2, assist: 4, sariq: 0, qizil: 0 },
-    { id: 5, ism: "Umarkulov", familiya: "Akim", oyin: 1, gol: 1, assist: 2, sariq: 0, qizil: 0 },
-    { id: 6, ism: "Haydarov", familiya: "Asror", oyin: 1, gol: 2, assist: 1, sariq: 0, qizil: 0 },
-    { id: 7, ism: "Tursunaliyev", familiya: "Olim", oyin: 1, gol: 4, assist: 5, sariq: 0, qizil: 0 },
-    { id: 8, ism: "Jamoliddinov", familiya: "Fazliddin", oyin: 1, gol: 2, assist: 1, sariq: 0, qizil: 0 },
-    { id: 9, ism: "Husainov", familiya: "Firdavs", oyin: 1, gol: 4, assist: 0, sariq: 0, qizil: 0 }
-  ]
+  tasks = []
   
   
   constructor() {

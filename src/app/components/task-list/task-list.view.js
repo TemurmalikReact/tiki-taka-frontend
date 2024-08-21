@@ -6,7 +6,7 @@ export class TaskListView {
     { id: 1, ism: "Abdumutalov Xurrambek", oyin: 2, gol: 3, assist: 4 },
     { id: 2, ism: "Muhammad Mabrur", oyin: 2, gol: 1, assist: 1 },
     { id: 3, ism: "Xolmirzayev Zafar", oyin: 2, gol: 3, assist: 2 },
-    { id: 4, ism: "Zafarov Nurmuhammad", oyin: 2, gol: 6, assist: 2 },
+    { id: 4, ism: "Zafarov Nurmuhammad", oyin: 3, gol: 11, assist: 4 },
     { id: 5, ism: "Ali", oyin: 2, gol: 3, assist: 1 },
     { id: 6, ism: "Bilol", oyin: 2, gol: 0, assist: 1 },
     { id: 7, ism: "Husainov Firdavs", oyin: 2, gol: 4, assist: 0 },
@@ -24,16 +24,20 @@ export class TaskListView {
     { id: 19, ism: "Boburiy", oyin: 2, gol: 0, assist: 4 },
     { id: 20, ism: "Urmonov Davlatbek", oyin: 2, gol: 2, assist: 1 },
     { id: 21, ism: "Kamiljanov Habib", oyin: 2, gol: 1, assist: 0 },
-    { id: 22, ism: "Tursunov Muhammadziyo", oyin: 2, gol: 3, assist: 8 },
-    { id: 23, ism: "Jalilov Qobil", oyin: 2, gol: 2, assist: 1 },
+    { id: 22, ism: "Tursunov Muhammadziyo", oyin: 3, gol: 10, assist: 15 },
+    { id: 23, ism: "Jalilov Qobil", oyin: 3, gol: 5, assist: 1 },
     { id: 24, ism: "Xoshimov Abduqodir", oyin: 2, gol: 2, assist: 2 },
     { id: 25, ism: "Alimov Shahzod", oyin: 2, gol: 1, assist: 0 },
-    { id: 26, ism: "Yuldashev Ayubxon", oyin: 2, gol: 6, assist: 1 },
-    { id: 27, ism: "Abdukarimov Feruzbek", oyin: 2, gol: 1, assist: 4 },
-    { id: 28, ism: "Dadaboyev Asadulloh", oyin: 2, gol: 5, assist: 4 },
-    { id: 29, ism: "Saydalixonov Asilxon", oyin: 2, gol: 1, assist: 3 },
+    { id: 26, ism: "Yuldashev Ayubxon", oyin: 3, gol: 9, assist: 3 },
+    { id: 27, ism: "Abdukarimov Feruzbek", oyin: 3, gol: 4, assist: 5 },
+    { id: 28, ism: "Dadaboyev Asadulloh", oyin: 3, gol: 8, assist: 8 },
+    { id: 29, ism: "Saydalixonov Asilxon", oyin: 3, gol: 1, assist: 4 },
     { id: 30, ism: "Otajonov Ozodbek", oyin: 2, gol: 4, assist: 3 },
-    { id: 31, ism: "Boyqo'ziyev Kamronbek", oyin: 2, gol: 8, assist: 0 }
+    { id: 31, ism: "Boyqo'ziyev Kamronbek", oyin: 2, gol: 8, assist: 0 },
+    { id: 32, ism: "Juraev Shohruh", oyin: 1, gol: 5, assist: 3 },
+    { id: 33, ism: "Soyibjonov Usmon", oyin: 1, gol: 1, assist: 2 },
+    { id: 34, ism: "Mahmudov G’oibnazar", oyin: 2, gol: 1, assist: 2 },
+    { id: 35, ism: "Raxmonberdiyev Jo’rabek", oyin: 1, gol: 2, assist: 1 }
   ];
 
 
