@@ -20,14 +20,15 @@
   &__socials {
     padding-left: 22px;
     padding-right: 22px;
-    margin-bottom: 22px;
+    margin-bottom: 66px;
     display: flex;
     justify-content: center;
+    gap: 25px;
 
     a {
       color: #fff !important;
       font-size: 25px;
-      margin-right: 25px;
+      // margin-right: 25px;
     }
 
     // button {
