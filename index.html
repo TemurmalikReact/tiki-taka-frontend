@@ -3,12 +3,157 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Tiki-Taka</title>
-    <link rel="icon" href="./src/assets/imgs/favicon.ico">
-    
+    <title>Topik Academy</title>
+    <style>
+        /* Reset some basic styles */
+body, h1, p, ul, li, nav, header, footer, section, div, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.contact-info p {
+    margin-bottom: 5px;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero h1 {
+    margin: 20px 0;
+}
+
+.hero ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    gap: 20px; /* Adjust the gap between the list items as needed */
+}
+
+.hero li {
+    margin-bottom: 0; /* Remove the bottom margin since items are side by side */
+}
+
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 0;
+    background-color: #48b784;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+    </style>
 </head>
 <body>
-    <div id="app"></div>
+    <!-- Navbar Section -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo-placeholder.png" alt="Topik Academy Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Nega biz</a></li>
+                <li><a href="#">Natijalar</a></li>
+                <li><a href="#">Kurslar</a></li>
+                <li><a href="#">Ko'p beriladigan savollar</a></li>
+            </ul>
+            <div class="contact-info">
+                <p>+998 (33) 306 0098</p>
+                <a href="#">Hozirroq bog'laning</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <p>3 oyda Koreys tilida gapirishni boshlang</p>
+                <h1>Janubiy Koreya Universitetlarida 100% gacha grant asosida o'qish imkoni</h1>
+                <ul>
+                    <li>5 oyda Topikdan 6 darajagacha olishda yordam beramiz</li>
+                    <li>Topikdan yuqori darajani qo'lga kiritib, Janubiy Koreyada o'qish va ishlash imkoniyati</li>
+                </ul>
+                <a href="#" class="cta-button">BEPUL DARSGA YOZILISH</a>
+                <p class="note">Birinchi darsga bepul yoziling!</p>
+            </div>
+            <div class="hero-image">
+                <img src="image-placeholder.png" alt="Korean Architecture">
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <!-- Footer content can be added here -->
+    </footer>
 </body>
 </html>
