@@ -51,7 +51,9 @@ export class TaskListView {
     { id: 46, ism: "Нурматов Умиджон", oyin: 1, gol: 0, assist: 0 },
     { id: 47, ism: "Tursunov Ayubxon", oyin: 1, gol: 2, assist: 3 },
     { id: 48, ism: "Gʻaniyev Muhammadaziz", oyin: 1, gol: 2, assist: 1 },
-    { id: 49, ism: "Mamurov Muhammadyusuf", oyin: 1, gol: 2, assist: 0 }
+    { id: 49, ism: "Mamurov Muhammadyusuf", oyin: 1, gol: 2, assist: 0 },
+    { id: 50, ism: "Raxmonov Elmurod", oyin: 1, gol: 3, assist: 1 },
+    { id: 51, ism: "Артиков Жавохир", oyin: 1, gol: 1, assist: 0 }
 ]
 
   listSelector = 'task-list';
