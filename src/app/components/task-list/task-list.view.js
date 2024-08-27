@@ -19,20 +19,20 @@ export class TaskListView {
     { id: 14, ism: "Tursunaliyev Olim", oyin: 2, gol: 9, assist: 8 },
     { id: 15, ism: "Tillavoldiyev Nomonjon", oyin: 2, gol: 2, assist: 1 },
     { id: 16, ism: "Ergashev Zuhriddin", oyin: 2, gol: 5, assist: 2 },
-    { id: 17, ism: "Muhtoriddinov Suhrobiddin", oyin: 3, gol: 6, assist: 2 },
-    { id: 18, ism: "Raximov Shoxruh", oyin: 3, gol: 8, assist: 4 },
-    { id: 19, ism: "Boburiy", oyin: 3, gol: 2, assist: 6 },
+    { id: 17, ism: "Muhtoriddinov Suhrobiddin", oyin: 4, gol: 7, assist: 2 },
+    { id: 18, ism: "Raximov Shoxruh", oyin: 4, gol: 14, assist: 5 },
+    { id: 19, ism: "Boburiy", oyin: 4, gol: 3, assist: 8 },
     { id: 20, ism: "Urmonov Davlatbek", oyin: 3, gol: 5, assist: 3 },
-    { id: 21, ism: "Kamiljanov Habib", oyin: 2, gol: 1, assist: 0 },
-    { id: 22, ism: "Tursunov Muhammadziyo", oyin: 4, gol: 13, assist: 16 },
+    { id: 21, ism: "Kamiljanov Habib", oyin: 3, gol: 1, assist: 1 },
+    { id: 22, ism: "Tursunov Muhammadziyo", oyin: 5, gol: 13, assist: 17 },
     { id: 23, ism: "Jalilov Qobil", oyin: 3, gol: 5, assist: 1 },
     { id: 24, ism: "Xoshimov Abduqodir", oyin: 3, gol: 3, assist: 2 },
     { id: 25, ism: "Alimov Shahzod", oyin: 3, gol: 3, assist: 2 },
-    { id: 26, ism: "Yuldashev Ayubxon", oyin: 4, gol: 11, assist: 5 },
-    { id: 27, ism: "Abdukarimov Feruzbek", oyin: 3, gol: 4, assist: 5 },
-    { id: 28, ism: "Dadaboyev Asadulloh", oyin: 3, gol: 8, assist: 8 },
+    { id: 26, ism: "Yuldashev Ayubxon", oyin: 5, gol: 13, assist: 5 },
+    { id: 27, ism: "Abdukarimov Feruzbek", oyin: 4, gol: 4, assist: 7 },
+    { id: 28, ism: "Dadaboyev Asadulloh", oyin: 4, gol: 9, assist: 8 },
     { id: 29, ism: "Saydalixonov Asilxon", oyin: 3, gol: 1, assist: 4 },
-    { id: 30, ism: "Otajonov Ozodbek", oyin: 2, gol: 4, assist: 3 },
+    { id: 30, ism: "Otajonov Ozodbek", oyin: 3, gol: 5, assist: 4 },
     { id: 31, ism: "Boyqo'ziyev Kamronbek", oyin: 2, gol: 8, assist: 0 },
     { id: 32, ism: "Juraev Shohruh", oyin: 2, gol: 9, assist: 7 },
     { id: 33, ism: "Soyibjonov Usmon", oyin: 2, gol: 4, assist: 2 },
@@ -52,8 +52,7 @@ export class TaskListView {
     { id: 47, ism: "Tursunov Ayubxon", oyin: 1, gol: 2, assist: 3 },
     { id: 48, ism: "Gʻaniyev Muhammadaziz", oyin: 1, gol: 2, assist: 1 },
     { id: 49, ism: "Mamurov Muhammadyusuf", oyin: 1, gol: 2, assist: 0 }
-  ]
-
+]
 
   listSelector = 'task-list';
   childSelector = 'task';
